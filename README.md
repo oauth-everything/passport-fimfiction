@@ -2,13 +2,13 @@
 =====================================
 
 A [Passport](http://passportjs.org/) strategy for authenticating with
-[Fimfiction](http://www.fimfiction.tv/) using the OAuth 2.0 and the Fimfiction API.
+[Fimfiction](https://www.fimfiction.net/) using the OAuth 2.0 and the Fimfiction API.
 
 This module lets you authenticate using Fimfiction in your Node.js applications.
 By plugging into Passport, Fimfiction authentication can be easily and
 unobtrusively integrated into any application or framework that supports
-[Connect](http://www.senchalabs.org/connect/)-style middleware, including
-[Express](http://expressjs.com/).
+[Connect](https://www.senchalabs.org/connect/)-style middleware, including
+[Express](https://expressjs.com/).
 
 ## Install
 
@@ -46,7 +46,7 @@ passport.use(new Strategy(
 Use `passport.authenticate()`, specifying the `'fimfiction'` strategy, to
 authenticate requests.
 
-For example, as route middleware in an [Express](http://expressjs.com/)
+For example, as route middleware in an [Express](https://expressjs.com/)
 application:
 
 ```javascript
