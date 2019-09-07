@@ -2,7 +2,7 @@
 =====================================
 
 A [Passport](http://passportjs.org/) strategy for authenticating with
-[Fimfiction](https://www.fimfiction.net/) using the OAuth 2.0 and the Fimfiction API.
+[Fimfiction](https://www.fimfiction.net/) using OAuth 2.0 and the Fimfiction API.
 
 This module lets you authenticate using Fimfiction in your Node.js applications.
 By plugging into Passport, Fimfiction authentication can be easily and
